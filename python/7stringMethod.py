@@ -1,0 +1,23 @@
+import numpy as np
+str1="python "
+#multiply()
+print(np.char.multiply(str1,3))
+#title()
+print(np.char.title(str1))
+#replace()
+print(np.char.replace("hello python", "hello", "HI"))
+#add()
+print(np.char.add(str1,"PYTHON"))
+#UPPER() LOWER()
+print(np.char.lower("WELCOM"))
+print(np.char.upper("welcom"))
+#Equal()
+print(np.char.equal("dr","mrs"))
+#center()
+print(np.char.center("hi",10,fillchar='+'))
+#strip()
+print(np.char.strip("  Strip method  "))# remove leading & trailing space from the strig
+#islower/upper() isnumric()
+print(np.char.isnumeric(str1))
+print(np.char.islower(str1))
+print(np.char.isupper(str1))
